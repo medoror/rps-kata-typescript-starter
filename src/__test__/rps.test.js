@@ -4,6 +4,17 @@
 
 const rps = require("../rps");
 
-it('rock beats scissors', () =>{
+it('should return rock when rock is against scissors', () =>{
     expect(rps("rock", "scissors")).toBe("rock");
+    expect(rps("scissors", "rock")).toBe("rock");
+});
+
+it('should return scissors when paper is against scissors', () =>{
+    expect(rps("paper", "scissors")).toBe("scissors");
+    expect(rps("scissors", "paper")).toBe("scissors");
+});
+
+it('should return paper when paper is against rock', () =>{
+    expect(rps("paper", "rock")).toBe("paper");
+    expect(rps("rock", "paper")).toBe("paper");
 });
