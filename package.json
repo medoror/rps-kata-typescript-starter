@@ -1,0 +1,14 @@
+{
+  "name": "rps-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:medoror/rps-typescript.git",
+  "author": "Mike Edoror <medoror@vmware.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}
