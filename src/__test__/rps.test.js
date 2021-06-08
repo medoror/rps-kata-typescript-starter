@@ -18,3 +18,9 @@ it('should return paper when paper is against rock', () =>{
     expect(rps("paper", "rock")).toBe("paper");
     expect(rps("rock", "paper")).toBe("paper");
 });
+
+it('should return draw when p1 and p2 make the same choice', () =>{
+    expect(rps("paper", "paper")).toBe("draw");
+    expect(rps("rock", "rock")).toBe("draw");
+    expect(rps("scissors", "scissors")).toBe("draw");
+});

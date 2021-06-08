@@ -2,6 +2,10 @@
 
 const rps = (p1, p2) => {
 
+    if(p1 === p2){
+        return "draw";
+    }
+
     let winner = "";
     if(p1 === "rock"){
         if(p2 === "scissors"){
