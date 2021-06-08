@@ -1,5 +1,5 @@
 import {rps} from '../rps'
 
-it('rock beats scissors', () =>{
+it('should return rock when rock is against scissors', () =>{
     expect(rps("rock", "scissors")).toBe("rock");
 });
