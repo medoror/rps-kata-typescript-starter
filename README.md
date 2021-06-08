@@ -14,4 +14,6 @@ Steps I used to setup a typescript / node project: https://levelup.gitconnected.
   npm install typescript --save-dev -> yarn add typescript -D
   npm init -y -> yarn init -y
 ```
-
+1. Could be worth explaining some of the concepts in this repo before jumping into the kata e.g what is typescript, what `yarn init -y` does, why certain configurations are needed. Here are some helpful docs:
+    1. [Why typescript](https://serokell.io/blog/why-typescript)
+    1. [Typescript node setup with explanations](https://khalilstemmler.com/blogs/typescript/node-starter-project/)
